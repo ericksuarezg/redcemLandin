@@ -315,3 +315,16 @@
 .text-primary{
     color: var(--primary) !important;
 }
+
+.city-img-container {
+    width: 100%;
+    height: 160px;        /* 🔥 altura fija */
+    overflow: hidden;     /* recorta lo que sobre */
+    border-radius: 8px;
+}
+
+.city-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* 🔥 mantiene proporción y recorta */
+}
